@@ -1,0 +1,14 @@
+<h2>My Heroes</h2>
+<div *ngIf="hero">
+    <h2>
+        {{hero.name | uppercase}} is my hero
+    </h2>
+    <button (click)="goBack()">返回</button>
+</div>
+
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
